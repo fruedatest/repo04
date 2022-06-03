@@ -12,7 +12,15 @@
     $ git branch -M main
     $ git push -u origin main
     $ git checkout -b noFastForward
-    
+    $ git branch
+    $ git status
+    $ git add readme.md
+    $ git status
+    $ git commit -m "commitNoFastForward"
+    $ git log
+    $ git checkout main
+    $ git merge --no-f noFastForward -m "commitNoFastForward002"
+    $ git log --all --online --decorate --graph
 
 
 ```
