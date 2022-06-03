@@ -11,6 +11,8 @@
     $ git remote add origin https://github.com/fruedatest/repo04.git
     $ git branch -M main
     $ git push -u origin main
+    $ git checkout -b noFastForward
     
+
 
 ```
